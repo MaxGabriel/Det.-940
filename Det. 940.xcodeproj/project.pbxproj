@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD43ADD217BBE0EB005A26C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD43ADD117BBE0EB005A26C4 /* UIKit.framework */; };
+		CD43ADD417BBE0EB005A26C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD43ADD317BBE0EB005A26C4 /* Foundation.framework */; };
+		CD43ADD617BBE0EB005A26C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD43ADD517BBE0EB005A26C4 /* CoreGraphics.framework */; };
+		CD43ADDC17BBE0EB005A26C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD43ADDA17BBE0EB005A26C4 /* InfoPlist.strings */; };
+		CD43ADDE17BBE0EB005A26C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD43ADDD17BBE0EB005A26C4 /* main.m */; };
+		CD43ADE217BBE0EB005A26C4 /* WarriorKnowledgeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD43ADE117BBE0EB005A26C4 /* WarriorKnowledgeAppDelegate.m */; };
+		CD43ADE417BBE0EB005A26C4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CD43ADE317BBE0EB005A26C4 /* Default.png */; };
+		CD43ADE617BBE0EB005A26C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD43ADE517BBE0EB005A26C4 /* Default@2x.png */; };
+		CD43ADE817BBE0EB005A26C4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD43ADE717BBE0EB005A26C4 /* Default-568h@2x.png */; };
+		CD43ADEB17BBE0EB005A26C4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD43ADE917BBE0EB005A26C4 /* MainStoryboard_iPhone.storyboard */; };
+		CD43ADEE17BBE0EB005A26C4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD43ADEC17BBE0EB005A26C4 /* MainStoryboard_iPad.storyboard */; };
+		CD43ADF117BBE0EB005A26C4 /* WarriorKnowledgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD43ADF017BBE0EB005A26C4 /* WarriorKnowledgeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD43ADCE17BBE0EB005A26C4 /* Det. 940.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Det. 940.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD43ADD117BBE0EB005A26C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD43ADD317BBE0EB005A26C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD43ADD517BBE0EB005A26C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD43ADD917BBE0EB005A26C4 /* Det. 940-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Det. 940-Info.plist"; sourceTree = "<group>"; };
+		CD43ADDB17BBE0EB005A26C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD43ADDD17BBE0EB005A26C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD43ADDF17BBE0EB005A26C4 /* Det. 940-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Det. 940-Prefix.pch"; sourceTree = "<group>"; };
+		CD43ADE017BBE0EB005A26C4 /* WarriorKnowledgeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarriorKnowledgeAppDelegate.h; sourceTree = "<group>"; };
+		CD43ADE117BBE0EB005A26C4 /* WarriorKnowledgeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarriorKnowledgeAppDelegate.m; sourceTree = "<group>"; };
+		CD43ADE317BBE0EB005A26C4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CD43ADE517BBE0EB005A26C4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CD43ADE717BBE0EB005A26C4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CD43ADEA17BBE0EB005A26C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CD43ADED17BBE0EB005A26C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CD43ADEF17BBE0EB005A26C4 /* WarriorKnowledgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarriorKnowledgeViewController.h; sourceTree = "<group>"; };
+		CD43ADF017BBE0EB005A26C4 /* WarriorKnowledgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarriorKnowledgeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD43ADCB17BBE0EB005A26C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD43ADD217BBE0EB005A26C4 /* UIKit.framework in Frameworks */,
+				CD43ADD417BBE0EB005A26C4 /* Foundation.framework in Frameworks */,
+				CD43ADD617BBE0EB005A26C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD43ADC517BBE0EB005A26C4 = {
+			isa = PBXGroup;
+			children = (
+				CD43ADD717BBE0EB005A26C4 /* Det. 940 */,
+				CD43ADD017BBE0EB005A26C4 /* Frameworks */,
+				CD43ADCF17BBE0EB005A26C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD43ADCF17BBE0EB005A26C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD43ADCE17BBE0EB005A26C4 /* Det. 940.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD43ADD017BBE0EB005A26C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD43ADD117BBE0EB005A26C4 /* UIKit.framework */,
+				CD43ADD317BBE0EB005A26C4 /* Foundation.framework */,
+				CD43ADD517BBE0EB005A26C4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD43ADD717BBE0EB005A26C4 /* Det. 940 */ = {
+			isa = PBXGroup;
+			children = (
+				CD43ADE017BBE0EB005A26C4 /* WarriorKnowledgeAppDelegate.h */,
+				CD43ADE117BBE0EB005A26C4 /* WarriorKnowledgeAppDelegate.m */,
+				CD43ADE917BBE0EB005A26C4 /* MainStoryboard_iPhone.storyboard */,
+				CD43ADEC17BBE0EB005A26C4 /* MainStoryboard_iPad.storyboard */,
+				CD43ADEF17BBE0EB005A26C4 /* WarriorKnowledgeViewController.h */,
+				CD43ADF017BBE0EB005A26C4 /* WarriorKnowledgeViewController.m */,
+				CD43ADD817BBE0EB005A26C4 /* Supporting Files */,
+			);
+			path = "Det. 940";
+			sourceTree = "<group>";
+		};
+		CD43ADD817BBE0EB005A26C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD43ADD917BBE0EB005A26C4 /* Det. 940-Info.plist */,
+				CD43ADDA17BBE0EB005A26C4 /* InfoPlist.strings */,
+				CD43ADDD17BBE0EB005A26C4 /* main.m */,
+				CD43ADDF17BBE0EB005A26C4 /* Det. 940-Prefix.pch */,
+				CD43ADE317BBE0EB005A26C4 /* Default.png */,
+				CD43ADE517BBE0EB005A26C4 /* Default@2x.png */,
+				CD43ADE717BBE0EB005A26C4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD43ADCD17BBE0EB005A26C4 /* Det. 940 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD43ADF417BBE0EB005A26C4 /* Build configuration list for PBXNativeTarget "Det. 940" */;
+			buildPhases = (
+				CD43ADCA17BBE0EB005A26C4 /* Sources */,
+				CD43ADCB17BBE0EB005A26C4 /* Frameworks */,
+				CD43ADCC17BBE0EB005A26C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Det. 940";
+			productName = "Det. 940";
+			productReference = CD43ADCE17BBE0EB005A26C4 /* Det. 940.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD43ADC617BBE0EB005A26C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WarriorKnowledge;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jack Murdock";
+			};
+			buildConfigurationList = CD43ADC917BBE0EB005A26C4 /* Build configuration list for PBXProject "Det. 940" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD43ADC517BBE0EB005A26C4;
+			productRefGroup = CD43ADCF17BBE0EB005A26C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD43ADCD17BBE0EB005A26C4 /* Det. 940 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD43ADCC17BBE0EB005A26C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD43ADDC17BBE0EB005A26C4 /* InfoPlist.strings in Resources */,
+				CD43ADE417BBE0EB005A26C4 /* Default.png in Resources */,
+				CD43ADE617BBE0EB005A26C4 /* Default@2x.png in Resources */,
+				CD43ADE817BBE0EB005A26C4 /* Default-568h@2x.png in Resources */,
+				CD43ADEB17BBE0EB005A26C4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CD43ADEE17BBE0EB005A26C4 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD43ADCA17BBE0EB005A26C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD43ADDE17BBE0EB005A26C4 /* main.m in Sources */,
+				CD43ADE217BBE0EB005A26C4 /* WarriorKnowledgeAppDelegate.m in Sources */,
+				CD43ADF117BBE0EB005A26C4 /* WarriorKnowledgeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD43ADDA17BBE0EB005A26C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD43ADDB17BBE0EB005A26C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD43ADE917BBE0EB005A26C4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD43ADEA17BBE0EB005A26C4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CD43ADEC17BBE0EB005A26C4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD43ADED17BBE0EB005A26C4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD43ADF217BBE0EB005A26C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD43ADF317BBE0EB005A26C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD43ADF517BBE0EB005A26C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Det. 940/Det. 940-Prefix.pch";
+				INFOPLIST_FILE = "Det. 940/Det. 940-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD43ADF617BBE0EB005A26C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Det. 940/Det. 940-Prefix.pch";
+				INFOPLIST_FILE = "Det. 940/Det. 940-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD43ADC917BBE0EB005A26C4 /* Build configuration list for PBXProject "Det. 940" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD43ADF217BBE0EB005A26C4 /* Debug */,
+				CD43ADF317BBE0EB005A26C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD43ADF417BBE0EB005A26C4 /* Build configuration list for PBXNativeTarget "Det. 940" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD43ADF517BBE0EB005A26C4 /* Debug */,
+				CD43ADF617BBE0EB005A26C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD43ADC617BBE0EB005A26C4 /* Project object */;
+}
